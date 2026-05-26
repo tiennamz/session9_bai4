@@ -110,3 +110,31 @@ Tổng số đơn hàng: {len(order_list)}
         
         case _: 
             print("Không hợp lệ")
+
+
+
+
+            
+'''
+- input: 
+    Lựa chọn menu
+    Mã đơn hàng mới
+    Mã đơn hàng cần xóa
+- output:
+    thông báo
+    
+- các hàm dùng: strip, upper, append, find, len,pop
+- Pseudocode
+- khởi tạo list
+- bắt đầu vòng ljapw
+- in menu
+- cho người dùng nhập 
+- 1: hiện ra thông tin
+-2.1 : nhận mã mới, chuẩn hóa rồi thêm vào list
+- 2.2:  nhận mã, tìm xem có k, néu có thì sửa, k thì báo lỗi
+- 2.3:  nhận mã, tìm xem có k, néu có thì xóa, k thì báo lỗi
+- 2.4: quay lại menu chính
+-3: ktra list rỗng k, nếu k đếm theo tình trạng r in ra
+- 4: thoát
+- 5 : check dèault
+'''
